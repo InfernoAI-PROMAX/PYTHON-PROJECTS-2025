@@ -1,0 +1,19 @@
+def calculator():
+    print("Simple Calculator ")
+    num1 = float(input("Enter first number: "))
+    operator = input("Enter operation (+, -, *, /):  ")
+    num2 = float(input("Enter second number: "))
+
+    if operation == "+":
+        print(f"Result:{num1 + num2}")
+    elif operation == "-":
+        print(f"Result:{num1 - num2}")
+    elif operation == "*":
+        print(f"Result:{num1 * num2}")
+    elif operation == "/":
+        if num2 != "0":
+            print(f"Result:{num1 / num2}")
+        else:
+            print("Error Division must be done with 0")
+    else: 
+        print("Invalid! operation")
